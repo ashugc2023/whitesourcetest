@@ -3,9 +3,11 @@
   "extends": [
     "config:base"
   ],
-  "assignAutomerge": {
-    "description": "Assign reviewers and assignees even if the PR is to be automerged.",
-    "type": "boolean",
-    "default": true
-  }
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    }
+  ]
+
 }
