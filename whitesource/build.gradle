@@ -18,7 +18,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-jersey'
 	implementation 'org.springframework.boot:spring-boot-starter-security'
 	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web
-	implementation 'org.springframework.boot:spring-boot-starter-web:2.6.4'
+	implementation 'org.springframework.boot:spring-boot-starter-web:2.5.11'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.security:spring-security-test'
 }
